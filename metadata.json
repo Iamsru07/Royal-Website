@@ -1,0 +1,6 @@
+{
+  "name": "The Royal Taste - Restaurant QR Table Ordering",
+  "description": "Premium restaurant QR code table ordering platform with interactive menu, live order tracking, cart checkout, and full restaurant admin dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

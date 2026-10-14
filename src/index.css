@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-serif: 'Playfair Display', Georgia, serif;
+  }
+  
+  body {
+    font-family: var(--font-sans);
+  }
+
+  h1, h2, .font-serif-brand {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Hide scrollbar for category tabs while maintaining scrollability */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
